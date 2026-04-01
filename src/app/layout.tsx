@@ -112,7 +112,7 @@ export default function RootLayout({
               { "@type": "ListItem", position: 2, name: "About", item: "https://franchising.acmefranchise.com/about" },
               { "@type": "ListItem", position: 3, name: "Business Model", item: "https://franchising.acmefranchise.com/business-model" },
               { "@type": "ListItem", position: 4, name: "Investment", item: "https://franchising.acmefranchise.com/investment" },
-              { "@type": "ListItem", position: 5, name: "Why STC", item: "https://franchising.acmefranchise.com/why-stc" },
+              { "@type": "ListItem", position: 5, name: "Why Us", item: "https://franchising.acmefranchise.com/why-stc" },
               { "@type": "ListItem", position: 6, name: "Markets", item: "https://franchising.acmefranchise.com/markets" },
               { "@type": "ListItem", position: 7, name: "Testimonials", item: "https://franchising.acmefranchise.com/testimonials" },
               { "@type": "ListItem", position: 8, name: "Steps", item: "https://franchising.acmefranchise.com/steps" },

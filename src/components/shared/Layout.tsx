@@ -9,7 +9,7 @@ import { cn } from "@/lib/utils";
 const primaryNav = [
   { name: "About", href: "/about" },
   { name: "How It Works", href: "/business-model" },
-  { name: "Why STC", href: "/why-stc" },
+  { name: "Why Us", href: "/why-stc" },
   { name: "Markets", href: "/markets" },
   { name: "Investment", href: "/investment" },
 ];
