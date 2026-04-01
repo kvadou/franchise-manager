@@ -22,7 +22,7 @@ const nextConfig = {
     remotePatterns: [
       {
         protocol: 'https',
-        hostname: '**.storytimechess.com',
+        hostname: '**.acmefranchise.com',
       },
       {
         protocol: 'https',

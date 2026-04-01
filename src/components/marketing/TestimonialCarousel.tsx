@@ -34,7 +34,7 @@ const testimonials = [
   },
   {
     quote:
-      "Storytime Chess provides such a well developed curriculum that families instantly fall in love with. Running and growing a branch in Los Angeles has been incredibly rewarding and fun, whether it's hiring fantastic creatives, watching kids have countless \"a-ha\" moments, or hearing glowing reviews from parents. I love being part of such meaningful work!",
+      "Acme Education provides such a well developed curriculum that families instantly fall in love with. Running and growing a branch in Los Angeles has been incredibly rewarding and fun, whether it's hiring fantastic creatives, watching kids have countless \"a-ha\" moments, or hearing glowing reviews from parents. I love being part of such meaningful work!",
     author: "Caitlin Goldie",
     role: "Los Angeles Market Director",
     image: "/images/testimonials/cgoldie.jpeg",

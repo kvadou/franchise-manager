@@ -25,7 +25,7 @@ function getMonthDateRange(
   return { start, end };
 }
 
-// Sync from STC database for Westside/Eastside franchisees
+// Sync from Acme database for Westside/Eastside franchisees
 async function syncFromSTCDatabase(
   franchiseeAccountId: string,
   location: 'westside' | 'eastside',
@@ -34,7 +34,7 @@ async function syncFromSTCDatabase(
   prospectName: string
 ): Promise<TCMonthlySnapshot | null> {
   console.log(
-    `[STC Sync] Fetching data from STC ${location} database for ${prospectName} - ${year}/${month}`
+    `[Acme Sync] Fetching data from Acme ${location} database for ${prospectName} - ${year}/${month}`
   );
 
   const financials = await getLocationMonthlyFinancials(location, year, month);

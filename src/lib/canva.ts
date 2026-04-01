@@ -6,7 +6,7 @@
  * - Listing and searching designs
  * - Getting design metadata and embed URLs
  *
- * Copied and adapted from StoryTimeTutors project.
+ * Copied and adapted from workforce-portal project.
  */
 
 // ============ Types ============

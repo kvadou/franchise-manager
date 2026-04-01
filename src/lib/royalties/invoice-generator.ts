@@ -277,7 +277,7 @@ export async function generateAllInvoices(
   };
 
   // Get all franchisee accounts that have revenue data for this month
-  // This includes TC-connected franchisees AND STC-territory franchisees (Westside/Eastside)
+  // This includes TC-connected franchisees AND Acme-territory franchisees (Westside/Eastside)
   const accountsWithSnapshots = await db.tutorCruncherSnapshot.findMany({
     where: { year, month },
     select: { franchiseeAccountId: true },

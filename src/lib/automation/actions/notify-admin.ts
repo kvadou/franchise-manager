@@ -85,7 +85,7 @@ export async function executeNotifyAdminAction(
 
   const success = await sendEmail({
     to: recipients,
-    subject: `[STC Franchise] ${subject}`,
+    subject: `[Acme Franchise] ${subject}`,
     html,
   });
 

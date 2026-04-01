@@ -143,7 +143,7 @@ export async function createACHDebit(
       franchiseeId,
       type: 'royalty_payment',
     },
-    statement_descriptor: 'STC ROYALTY',
+    statement_descriptor: 'ACME ROYALTY',
   });
 
   return paymentIntent;

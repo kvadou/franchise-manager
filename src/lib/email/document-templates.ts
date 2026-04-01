@@ -195,7 +195,7 @@ export function getAdminDocumentSignedEmail(
   const documentTitle = DOCUMENT_TITLES[documentType];
 
   return {
-    subject: `[STC Franchising] Document Signed: ${prospectName} - ${documentTitle}`,
+    subject: `[Acme Franchising] Document Signed: ${prospectName} - ${documentTitle}`,
     html: `
       <!DOCTYPE html>
       <html>
