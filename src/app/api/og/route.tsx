@@ -58,7 +58,7 @@ export async function GET() {
         >
           {/* Logo */}
           <img
-            src={`${baseUrl}/logo/stc-logo.png`}
+            src={`${baseUrl}/logo/logo.svg`}
             width={280}
             height={140}
             style={{ objectFit: "contain", marginBottom: "16px" }}
@@ -165,7 +165,7 @@ export async function GET() {
           }}
         >
           <img
-            src={`${baseUrl}/images/characters/characters-lineup.png`}
+            src={`${baseUrl}/images/characters/team-illustration.svg`}
             width={800}
             height={80}
             style={{ objectFit: "contain", opacity: 0.9 }}

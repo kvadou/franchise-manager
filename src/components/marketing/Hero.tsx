@@ -158,7 +158,7 @@ export function Hero() {
       {/* Characters - pinned to bottom of hero */}
       <div className="relative z-10 -mb-12 sm:-mb-16 lg:-mb-20">
         <Image
-          src="/images/characters/characters-lineup.png"
+          src="/images/characters/team-illustration.svg"
           alt="Acme Franchise Characters"
           width={900}
           height={150}

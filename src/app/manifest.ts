@@ -22,9 +22,9 @@ export default function manifest(): MetadataRoute.Manifest {
         type: "image/png",
       },
       {
-        src: "/logo/stc-logo.png",
-        sizes: "512x512",
-        type: "image/png",
+        src: "/logo/logo.svg",
+        sizes: "any",
+        type: "image/svg+xml",
       },
     ],
   };

@@ -68,8 +68,8 @@ export default function CoachPage() {
           <div className="flex items-center gap-3">
             <div className="w-12 h-12 rounded-full overflow-hidden bg-gradient-to-br from-[#6A469D] to-brand-navy p-0.5">
               <Image
-                src="/images/characters/earl-the-squirrel.png"
-                alt="Earl the Squirrel"
+                src="/images/characters/mascot.svg"
+                alt="Acme Franchise Mascot"
                 width={48}
                 height={48}
                 className="rounded-full"

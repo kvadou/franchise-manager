@@ -189,7 +189,7 @@ export function EarlChatWidget() {
           <span className="sr-only">Chat with Earl</span>
           {/* Bird icon */}
           <Image
-            src="/images/characters/earl-the-squirrel.png"
+            src="/images/characters/mascot.svg"
             alt="Earl"
             width={48}
             height={48}
@@ -223,7 +223,7 @@ export function EarlChatWidget() {
             <div className="relative flex-shrink-0">
               <div className="h-12 w-12 sm:h-14 sm:w-14 bg-white/20 backdrop-blur rounded-full flex items-center justify-center">
                 <Image
-                  src="/images/characters/earl-the-squirrel.png"
+                  src="/images/characters/mascot.svg"
                   alt="Earl"
                   width={40}
                   height={40}
@@ -257,7 +257,7 @@ export function EarlChatWidget() {
             <div className="text-center py-6">
               <div className="inline-block p-4 bg-white rounded-2xl shadow-sm mb-4">
                 <Image
-                  src="/images/characters/earl-the-squirrel.png"
+                  src="/images/characters/mascot.svg"
                   alt="Earl"
                   width={64}
                   height={64}
@@ -296,7 +296,7 @@ export function EarlChatWidget() {
                     <div className="flex-shrink-0 mr-2">
                       <div className="h-8 w-8 bg-brand-light rounded-full flex items-center justify-center">
                         <Image
-                          src="/images/characters/earl-the-squirrel.png"
+                          src="/images/characters/mascot.svg"
                           alt="Earl"
                           width={24}
                           height={24}
@@ -324,7 +324,7 @@ export function EarlChatWidget() {
                   <div className="flex-shrink-0 mr-2">
                     <div className="h-8 w-8 bg-brand-light rounded-full flex items-center justify-center">
                       <Image
-                        src="/images/characters/earl-the-squirrel.png"
+                        src="/images/characters/mascot.svg"
                         alt="Earl"
                         width={24}
                         height={24}

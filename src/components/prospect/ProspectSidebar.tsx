@@ -192,7 +192,7 @@ export default function ProspectSidebar({
         <div className="relative flex items-center gap-3">
           <div className="relative">
             <Image
-              src="/logo/stc-logo.png"
+              src="/logo/logo.svg"
               alt="Acme Franchise"
               width={44}
               height={44}

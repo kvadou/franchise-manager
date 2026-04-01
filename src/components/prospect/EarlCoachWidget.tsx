@@ -264,7 +264,7 @@ export default function EarlCoachWidget() {
         >
           <span className="sr-only">Chat with Earl</span>
           <Image
-            src="/images/characters/earl-the-squirrel.png"
+            src="/images/characters/mascot.svg"
             alt="Earl"
             width={40}
             height={40}
@@ -289,7 +289,7 @@ export default function EarlCoachWidget() {
             <div className="relative flex-shrink-0">
               <div className="h-10 w-10 bg-white/20 backdrop-blur rounded-full flex items-center justify-center">
                 <Image
-                  src="/images/characters/earl-the-squirrel.png"
+                  src="/images/characters/mascot.svg"
                   alt="Earl"
                   width={28}
                   height={28}
@@ -335,7 +335,7 @@ export default function EarlCoachWidget() {
               <div className="text-center max-w-sm mx-auto">
                 <div className="inline-block p-3 bg-white rounded-2xl shadow-sm mb-3">
                   <Image
-                    src="/images/characters/earl-the-squirrel.png"
+                    src="/images/characters/mascot.svg"
                     alt="Earl"
                     width={56}
                     height={56}
@@ -385,7 +385,7 @@ export default function EarlCoachWidget() {
                     <div className="flex-shrink-0 mr-2">
                       <div className="h-7 w-7 bg-brand-light rounded-full flex items-center justify-center">
                         <Image
-                          src="/images/characters/earl-the-squirrel.png"
+                          src="/images/characters/mascot.svg"
                           alt="Earl"
                           width={20}
                           height={20}
@@ -436,7 +436,7 @@ export default function EarlCoachWidget() {
                   <div className="flex-shrink-0 mr-2">
                     <div className="h-7 w-7 bg-brand-light rounded-full flex items-center justify-center">
                       <Image
-                        src="/images/characters/earl-the-squirrel.png"
+                        src="/images/characters/mascot.svg"
                         alt="Earl"
                         width={20}
                         height={20}

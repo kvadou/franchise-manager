@@ -178,7 +178,7 @@ export default function PortalTopNav({ user, healthScore }: PortalTopNavProps) {
         {/* Left: Logo + branding */}
         <Link href="/portal/my-franchise" className="flex items-center gap-2.5 flex-shrink-0">
           <Image
-            src="/logo/stc-logo.png"
+            src="/logo/logo.svg"
             alt="Acme Franchise"
             width={30}
             height={30}

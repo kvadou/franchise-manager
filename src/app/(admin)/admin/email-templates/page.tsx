@@ -301,7 +301,7 @@ function getBlankTemplate(): string {
           <!-- Header with Logo -->
           <tr>
             <td style="background: linear-gradient(135deg, #2D2F8E 0%, #6A469D 100%); padding: 32px; text-align: center;">
-              <img src="https://franchise-stc-993771038de6.herokuapp.com/logo/stc-logo.png" alt="Acme Franchise" width="180" style="display: block; margin: 0 auto;" />
+              <img src="https://via.placeholder.com/180x60?text=Acme+Franchise" alt="Acme Franchise" width="180" style="display: block; margin: 0 auto;" />
             </td>
           </tr>
           <!-- Content -->

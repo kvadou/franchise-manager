@@ -32,7 +32,7 @@ export function Navigation() {
           {/* Logo - larger and more prominent */}
           <Link href="/" className="flex-shrink-0">
             <Image
-              src="/logo/stc-logo.png"
+              src="/logo/logo.svg"
               alt="Acme Franchise"
               width={200}
               height={67}
@@ -108,7 +108,7 @@ export function Navigation() {
           <div className="flex items-center justify-between p-4 border-b">
             <Link href="/" onClick={() => setMobileMenuOpen(false)}>
               <Image
-                src="/logo/stc-logo.png"
+                src="/logo/logo.svg"
                 alt="Acme Franchise"
                 width={140}
                 height={47}
@@ -165,7 +165,7 @@ export function Footer() {
           <div className="lg:col-span-2">
             <div className="bg-white rounded-lg p-3 inline-block">
               <Image
-                src="/logo/stc-logo.png"
+                src="/logo/logo.svg"
                 alt="Acme Franchise"
                 width={200}
                 height={67}

@@ -106,7 +106,7 @@ export default function AcademyLayout({
             <Link href="/bootcamp" className="flex items-center gap-3 group">
               <div className="relative">
                 <Image
-                  src="/logo/stc-logo.png"
+                  src="/logo/logo.svg"
                   alt="Acme Franchise"
                   width={40}
                   height={40}
@@ -246,7 +246,7 @@ export default function AcademyLayout({
             <div className="flex items-center justify-between p-4 border-b border-slate-100 bg-gradient-to-r from-brand-navy to-[#3a3c9e]">
               <div className="flex items-center gap-3">
                 <Image
-                  src="/logo/stc-logo.png"
+                  src="/logo/logo.svg"
                   alt="Acme Franchise"
                   width={32}
                   height={32}

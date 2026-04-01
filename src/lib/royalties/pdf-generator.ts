@@ -26,7 +26,7 @@ export async function generateInvoicePDF(invoiceId: string): Promise<Buffer> {
   }
 
   // Get logo path for server-side rendering
-  const logoPath = path.join(process.cwd(), 'public', 'logo', 'stc-logo.png');
+  const logoPath = path.join(process.cwd(), 'public', 'logo', 'logo.svg');
 
   // Prepare data for PDF
   const pdfData: InvoicePDFData = {

@@ -119,8 +119,8 @@ export default function WhySTCPage() {
         <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
           <div className="grid grid-cols-1 gap-6 sm:gap-8 lg:grid-cols-2 items-center">
             <Image
-              src="/images/characters/blippi-chess.png"
-              alt="Blippi and Acme Franchise"
+              src="/images/characters/team-illustration.svg"
+              alt="Acme Franchise Partnership"
               width={500}
               height={400}
               className="mx-auto h-48 sm:h-64 w-auto object-contain"
@@ -326,7 +326,7 @@ export default function WhySTCPage() {
       <div className="bg-brand-light py-10 sm:py-16">
         <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8 text-center">
           <Image
-            src="/images/characters/characters-lineup.png"
+            src="/images/characters/team-illustration.svg"
             alt="Acme Franchise Characters"
             width={800}
             height={150}

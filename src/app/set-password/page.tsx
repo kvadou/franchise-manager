@@ -101,7 +101,7 @@ function SetPasswordForm() {
       <div className="sm:mx-auto sm:w-full sm:max-w-md">
         <Link href="/" className="flex flex-col items-center gap-4">
           <Image
-            src="/logo/stc-logo.png"
+            src="/logo/logo.svg"
             alt="Acme Franchise"
             width={80}
             height={80}

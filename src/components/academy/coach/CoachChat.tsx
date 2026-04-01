@@ -230,8 +230,8 @@ export default function CoachChat({ prospectId }: CoachChatProps) {
             <div className="flex flex-col items-center justify-center h-full text-center">
               <div className="w-24 h-24 rounded-full bg-gradient-to-br from-[#6A469D] to-brand-navy p-1 mb-4 overflow-hidden">
                 <Image
-                  src="/images/characters/earl-the-squirrel.png"
-                  alt="Earl the Squirrel"
+                  src="/images/characters/mascot.svg"
+                  alt="Acme Franchise Mascot"
                   width={96}
                   height={96}
                   className="rounded-full"
@@ -280,7 +280,7 @@ export default function CoachChat({ prospectId }: CoachChatProps) {
                     {message.role === "assistant" && (
                       <div className="flex items-center gap-2 mb-2 pb-2 border-b border-slate-200">
                         <Image
-                          src="/images/characters/earl-the-squirrel.png"
+                          src="/images/characters/mascot.svg"
                           alt="Earl"
                           width={24}
                           height={24}
@@ -317,7 +317,7 @@ export default function CoachChat({ prospectId }: CoachChatProps) {
                   <div className="bg-slate-100 rounded-2xl rounded-bl-md px-4 py-3">
                     <div className="flex items-center gap-2">
                       <Image
-                        src="/images/characters/earl-the-squirrel.png"
+                        src="/images/characters/mascot.svg"
                         alt="Earl"
                         width={24}
                         height={24}

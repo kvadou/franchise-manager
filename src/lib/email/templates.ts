@@ -12,7 +12,7 @@ const BRAND = {
 };
 
 // Logo URL (absolute URL for email clients)
-const LOGO_URL = 'https://franchise-stc-993771038de6.herokuapp.com/logo/stc-logo.png';
+const LOGO_URL = 'https://via.placeholder.com/180x60?text=Acme+Franchise';
 const BASE_URL = 'https://franchise-stc-993771038de6.herokuapp.com';
 
 const baseStyles = `
