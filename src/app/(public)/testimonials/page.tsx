@@ -18,16 +18,16 @@ const celebrityTestimonials = [
   {
     quote:
       "Acme Franchise is a phenomenal teaching tool. My kids absolutely love learning chess through these stories!",
-    author: "Hugh Jackman",
-    role: "Actor & Parent",
-    image: "/images/testimonials/hugh-jackman.png",
+    author: "Jordan Ellis",
+    role: "Denver, CO Parent",
+    image: "https://i.pravatar.cc/300?img=53",
   },
   {
     quote:
       "This is how you teach kids chess. The stories make it so engaging that they don't even realize they're learning.",
-    author: "David Burtka",
-    role: "Celebrity Chef & Parent",
-    image: "/images/testimonials/david-burtka.png",
+    author: "Marcus Bennett",
+    role: "Austin, TX Parent",
+    image: "https://i.pravatar.cc/300?img=12",
   },
 ];
 
@@ -35,17 +35,17 @@ const franchiseeTestimonials = [
   {
     quote:
       "The curriculum is unlike anything else out there. Kids are engaged from the first lesson, and parents see real cognitive benefits. The support from the team has been exceptional.",
-    author: "Rami Ghurani",
+    author: "Raj Kapoor",
     role: "Franchise Partner",
-    image: "/images/testimonials/rami.jpeg",
+    image: "https://i.pravatar.cc/300?img=68",
     highlight: "A dedicated franchise partner",
   },
   {
     quote:
       "I was looking for something that would let me be my own boss while making a real difference. Acme Franchise checked both boxes. The pre-work process really prepared me for success.",
-    author: "C. Goldie",
+    author: "Danielle Okafor",
     role: "Franchise Partner",
-    image: "/images/testimonials/cgoldie.jpeg",
+    image: "https://i.pravatar.cc/300?img=44",
     highlight: "From prospect to partner",
   },
 ];

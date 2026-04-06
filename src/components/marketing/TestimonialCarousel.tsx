@@ -6,59 +6,59 @@ import Image from "next/image";
 const testimonials = [
   {
     quote:
-      "I'm a two-time US women's chess champion, but I'm also the mom of a four-year-old boy who loves chess and he likes the Acme Franchise classes a lot too, which really surprised me. I highly recommend it.",
-    author: "Jennifer Shahade",
-    role: "US Chess Champion and Woman Grandmaster",
-    image: "/images/testimonials/jennifer-shahade.png",
+      "I've been coaching chess for over 15 years, and the Acme Franchise curriculum is hands-down the most engaging approach I've seen for young learners. My students are hooked from the very first lesson.",
+    author: "Patricia Hernandez",
+    role: "Chess Instructor & Parent",
+    image: "https://i.pravatar.cc/300?img=47",
   },
   {
     quote:
-      "Chess is such an important game for kids to learn. If you are interested in getting your tots involved check out Acme Franchise.",
-    author: "David Burtka",
-    role: "Actor and Parent",
-    image: "/images/testimonials/david-burtka.png",
+      "Chess is such an important game for kids to learn. If you are interested in getting your tots involved, check out Acme Franchise. Our whole family plays together now!",
+    author: "Marcus Bennett",
+    role: "Austin, TX Parent",
+    image: "https://i.pravatar.cc/300?img=12",
   },
   {
     quote:
-      "My daughter had no prior chess experience and immediately fell in love by going through Acme Franchise's storytelling style of teaching at the trial class. Now the chess club becomes her favorite class after the school and she can't wait to play with the next character when it is introduced... Definitely highly recommend it.",
-    author: "Christine",
-    role: "New York Parent",
-    image: "/images/testimonials/christine.png",
+      "My daughter had no prior chess experience and immediately fell in love with the storytelling style of teaching at the trial class. Now it's her favorite after-school activity and she can't wait for the next lesson. Definitely highly recommend it.",
+    author: "Mei-Lin Wu",
+    role: "Seattle, WA Parent",
+    image: "https://i.pravatar.cc/300?img=23",
   },
   {
     quote:
-      "Acme Franchise has our two children playing and loving chess! We're proud to have it in our home, and think every child should be learning Acme Franchise.",
-    author: "Hugh Jackman",
-    role: "Actor and Parent",
-    image: "/images/testimonials/hugh-jackman.png",
+      "Acme Franchise has our two children playing and loving chess! We're proud to have it in our home, and think every child should be learning with this program.",
+    author: "Jordan Ellis",
+    role: "Denver, CO Parent",
+    image: "https://i.pravatar.cc/300?img=53",
   },
   {
     quote:
-      "Acme Education provides such a well developed curriculum that families instantly fall in love with. Running and growing a branch in Los Angeles has been incredibly rewarding and fun, whether it's hiring fantastic creatives, watching kids have countless \"a-ha\" moments, or hearing glowing reviews from parents. I love being part of such meaningful work!",
-    author: "Caitlin Goldie",
-    role: "Los Angeles Market Director",
-    image: "/images/testimonials/cgoldie.jpeg",
+      "Acme Franchise provides such a well-developed curriculum that families instantly fall in love with. Running and growing a territory has been incredibly rewarding — watching kids have countless \"a-ha\" moments and hearing glowing reviews from parents makes it all worth it.",
+    author: "Danielle Okafor",
+    role: "Nashville Market Director",
+    image: "https://i.pravatar.cc/300?img=44",
   },
   {
     quote:
-      "Parents love the Acme Franchise curriculum, it creates a value proposition for universal Pre-K and why parents should stay with us. It is a huge marketing piece and great for the kids. We've had parents refer their friends, asking about our chess program.",
-    author: "Rami Singh",
-    role: "Goddard School Owner",
-    image: "/images/testimonials/rami.jpeg",
+      "Parents love the Acme Franchise curriculum. It creates real value for our school programs and why families stay with us. We've had parents refer their friends specifically because of our chess enrichment program.",
+    author: "Raj Kapoor",
+    role: "Academy Director",
+    image: "https://i.pravatar.cc/300?img=68",
   },
   {
     quote:
-      "Thanks for hosting a great week of summer camp. Coco seriously had the best time! She is obsessed with Acme Franchise and I'd love for her to take one of your classes in the fall. I'd also be interested to send her back in August for another camp!",
-    author: "Erica",
-    role: "New York, NY",
-    image: "/images/testimonials/erica.png",
+      "Thanks for hosting a great week of summer camp. My kids seriously had the best time! They're obsessed with Acme Franchise and I'd love for them to continue with classes in the fall.",
+    author: "Samantha Reed",
+    role: "Charlotte, NC Parent",
+    image: "https://i.pravatar.cc/300?img=32",
   },
   {
     quote:
-      "My 5 year old has been hooked since meeting the Chess team during their soft opening... The Staff and tutors and all of the Acme Franchise team have been incredibly welcoming, kind and patient with our budding chess player. Can't wait to keep up with the classes and see him develop his skills in the months to come. Couldn't recommend Acme Franchise!",
-    author: "Aviva",
-    role: "New York, NY",
-    image: "/images/testimonials/aviva.png",
+      "My 5-year-old has been hooked since the first class. The staff and tutors have been incredibly welcoming, kind, and patient with our budding chess player. Can't wait to see him develop his skills in the months to come!",
+    author: "Tanya Brooks",
+    role: "Orlando, FL Parent",
+    image: "https://i.pravatar.cc/300?img=26",
   },
 ];
 
