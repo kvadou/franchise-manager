@@ -1,22 +1,53 @@
 "use client";
 
-import { useState } from "react";
+import { useState, useEffect } from "react";
 import { signIn } from "next-auth/react";
 import { Button } from "@/components/shared/Button";
 import { Input } from "@/components/shared/Input";
 import Link from "next/link";
 import Image from "next/image";
-import { useSearchParams } from "next/navigation";
+import { useSearchParams, useRouter } from "next/navigation";
 import { Suspense } from "react";
 
 function LoginForm() {
+  const router = useRouter();
   const searchParams = useSearchParams();
-  const callbackUrl = searchParams.get("callbackUrl") || "/portal";
+  const callbackUrl = searchParams.get("callbackUrl") || "/admin";
   const error = searchParams.get("error");
   const message = searchParams.get("message");
 
   const [isLoading, setIsLoading] = useState(false);
   const [loginError, setLoginError] = useState<string | null>(null);
+  const [isAutoLogging, setIsAutoLogging] = useState(true);
+
+  // Auto-login as demo user for portfolio demo mode
+  useEffect(() => {
+    (async () => {
+      try {
+        const result = await signIn("credentials", {
+          email: "demo@acmefranchise.com",
+          password: "demo",
+          redirect: false,
+        });
+        if (!result?.error) {
+          router.push(callbackUrl);
+          router.refresh();
+          return;
+        }
+      } catch {
+        // Fall through to manual login
+      }
+      setIsAutoLogging(false);
+    })();
+  }, []);
+
+  if (isAutoLogging) {
+    return (
+      <div className="min-h-screen bg-brand-light flex items-center justify-center">
+        <div className="animate-spin h-8 w-8 border-2 border-brand-purple border-t-transparent rounded-full" />
+      </div>
+    );
+  }
 
   const successMessages: Record<string, string> = {
     "password-set": "Your password has been set. You can now sign in.",

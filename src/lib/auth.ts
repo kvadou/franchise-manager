@@ -58,6 +58,16 @@ export const { handlers, signIn, signOut, auth } = NextAuth({
         const email = credentials.email as string;
         const password = credentials.password as string;
 
+        // Demo mode: accept demo credentials without DB lookup
+        if (email === "demo@acmefranchise.com" && password === "demo") {
+          return {
+            id: "demo-user",
+            email: "demo@acmefranchise.com",
+            name: "Demo User",
+            role: "ADMIN" as UserRole,
+          };
+        }
+
         // Check if this is a prospect
         const prospect = await db.prospect.findUnique({
           where: { email },
