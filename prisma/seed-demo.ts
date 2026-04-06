@@ -468,7 +468,6 @@ async function main() {
             totalAmount: Math.round(totalAmt * 100) / 100,
             status: isPaid ? "PAID" : (m === 1 && franchiseeAccounts.indexOf(fa) === 2) ? "DISPUTED" : "PAYMENT_PENDING",
             dueDate: new Date(year, month, 15),
-            sentAt: daysAgo(m * 30 - 5),
           },
         });
 
