@@ -467,6 +467,7 @@ async function main() {
             systemsFeePercent: 2.0,
             totalAmount: Math.round(totalAmt * 100) / 100,
             status: isPaid ? "PAID" : (m === 1 && franchiseeAccounts.indexOf(fa) === 2) ? "DISPUTED" : "PAYMENT_PENDING",
+            invoiceDate: daysAgo(m * 30 - 5),
             dueDate: new Date(year, month, 15),
           },
         });
